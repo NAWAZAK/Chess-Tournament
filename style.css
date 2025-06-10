@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: linear-gradient(45deg, #62E2E5, #6274E5);
+}
+
+.container {
+  margin: 30px;
+  padding: 25px;
+  min-height: 96.8vh;
+  border-radius: 3vh;
+  background-color: #FFFFFF;
+}
+
+.container .head {
+  font-size: 3rem;
+  font-weight: bolder;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-color: #2A58BC;
+  color: #164160;
+}
+
+.container .leaderboard {
+  margin: 20px 10px 0 10px;
+  min-height: 88vh;
+  background-color: #EFEFEF;
+  border-radius: 50px;
+  padding: 25px;
+}
+
+.container .leaderboard-text {
+  font-size: 5rem;
+  font-weight: bolder;
+  text-decoration: underline;
+  text-underline-offset: 25px;
+  text-decoration-color: #2A58BC;
+  display: flex;
+  justify-content: center;
+  color: #2ABCA2;
+}
+
+.container .player-list {
+  margin-top: 2vh;
+  min-height: 78vh;
+  width: 82vw;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.temp{
+  height: 10vh;
+  width: 81.5vw;
+  border-radius: 50px;
+  border-left: 10px solid #00A6FF;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 800;
+}
