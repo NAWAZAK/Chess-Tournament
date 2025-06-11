@@ -35,11 +35,6 @@ function matches(player1, player2, wld) {
   updateLeaderboard()
 }
 
-addNewPlayer('Nawaz')
-addNewPlayer('Bandan')
-addNewPlayer('Raul')
-addNewPlayer('Debdoot')
-
 function updateLeaderboard() {
   
   players.sort((a, b) => b.points - a.points )
@@ -53,8 +48,12 @@ function updateLeaderboard() {
   })
 }
 
+// addNewPlayer() --> this function should execute below
+
+
+
+// updateLeaderboard() --> this function should not be replaced 
+
 updateLeaderboard()
 
-matches('Nawaz', 'Raul', 2)
-matches('Bandan', 'Raul', 1)
-matches('Bandan', 'Debdoot', 0)
+// match() --> this function should be execute below
